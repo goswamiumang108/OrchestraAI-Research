@@ -10,6 +10,7 @@ from ODR_Agent.prompts import *
 from ODR_Agent.state import *
 from ODR_Agent.utils import *
 
+
 load_dotenv(dotenv_path=".env")
 
 # Initialize a configurable model that we will use throughout the agent
@@ -38,8 +39,7 @@ async def clarify_with_user(state: AgentState, config: RunnableConfig) -> Comman
 	
 	# Step 2: Prepare the model for structured clarification analysis
 	messages = state["messages"]
-	model_config = {"model":          configurable.research_model, "max_tokens":
-	configurable.research_model_max_tokens,
+	model_config = {"model":          configurable.research_model, "max_tokens": configurable.research_model_max_tokens,
 	                "api_key":        get_api_key_for_model(configurable.research_model, config),
 	                "model_provider": "google_genai", "tags": ["langsmith:nostream"]}
 	
