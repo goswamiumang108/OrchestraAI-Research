@@ -150,12 +150,21 @@ The proposed system is expected to deliver the following outcomes:
 ## 7. REFERENCES
 
 [1] T. B. Brown et al., “Language Models are Few-Shot Learners,” Advances in Neural Information Processing Systems (NeurIPS), vol. 33, pp. 1877–1901, 2020.
+
 [2] LangChain AI, “Open Deep Research,” GitHub Repository. [Online]. Available: https://github.com/langchain-ai/open_deep_research. [Accessed: Sep. 10, 2025].
+
 [3] LangChain AI, “Deep Research with LangGraph,” LangChain Academy. [Online]. Available: https://academy.langchain.com/courses/deep-research-with-langgraph. [Accessed: Sep. 10, 2025].
+
 [4] Tavily, “Tavily Research API Documentation.” [Online]. Available: https://docs.tavily.com/. [Accessed: Sep. 10, 2025].
+
 [5] Google, “Google AI Studio Documentation.” [Online]. Available: https://ai.google.dev/docs. [Accessed: Sep. 10, 2025].
+
 [6] Meta AI, P. Lewis, E. Perez, A. Piktus, F. Petroni et al., “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks,” arXiv preprint arXiv:2005.11401, 2020.
+
 [7] Anthropic, “Claude AI — About the Product,” Anthropic. [Online]. Available: https://www.anthropic.com/claude. [Accessed: Sep. 10, 2025].
+
 [8] OpenAI, “ChatGPT: Optimizing Language Models for Dialogue,” OpenAI Blog. [Online]. Available: https://openai.com/blog/chatgpt. [Accessed: Sep. 10, 2025].
+
 [9] Google DeepMind, “Gemini — Multimodal AI Model,” DeepMind. [Online]. Available: https://deepmind.google/technologies/gemini. [Accessed: Sep. 10, 2025].
+
 [10] Google, “NotebookLM — AI-Powered Research Notebook,” Google. [Online]. Available: https://notebooklm.google/. [Accessed: Sep. 10, 2025].
