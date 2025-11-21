@@ -155,15 +155,26 @@ if "processing" not in st.session_state:
 	st.session_state["processing"] = False
 
 # ---------------- UI Layout ----------------
-st.set_page_config(page_title="Open Deep Researcher", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="OrchestraAI Research", layout="wide", initial_sidebar_state="expanded")
 
-st.sidebar.title("Navigation")
-tab = st.sidebar.radio("Go to", ["Research Assistant", "Research History", "Settings & Preferences",
-                                 "User Profile", ], key="main_nav", )
+# Sidebar header with emoji and compact description for improved look
+st.sidebar.markdown("# 🧠 OrchestraAI Research")
+
+# Radio with emojis for visual differentiation
+tab = st.sidebar.radio("Navigate to", [
+    "🧭 Research Assistant",
+    "📚 Research History",
+    "⚙️ Settings & Preferences",
+    "👤 User Profile"
+], index=0, key="main_nav")
+
+# Normalize for existing downstream comparisons (strip emoji)
+tab = tab.split(" ", 1)[1] if " " in tab else tab
 
 # ---- Main Content ----
 if tab == "Research Assistant":
-	st.title("Open Deep Researcher")
+	st.title("OrchestraAI Research")
+	st.subheader("The Agent-as-a-Service for Deep Research Orchestration & Knowledge Synthesis")
 	
 	# Initialize session state containers
 	if 'conversation_messages' not in st.session_state:
