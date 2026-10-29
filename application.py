@@ -87,7 +87,7 @@ def build_config_from_settings() -> dict:
 	if provider == "Anthropic":
 		model_name = "anthropic:claude-3-5-sonnet"
 	else:
-		model_name = "gemini-2.0-flash"
+		model_name = "gemini-3.8-flash"
 	
 	api_keys = settings.get("apiKeys", {})
 	
